@@ -156,7 +156,7 @@ class ResultListContainer extends React.PureComponent<Props, State> {
               key={doc.m_szDocID}
               item={doc}
               row={i + 1}
-              displayModal={() => toggleModal({doc: Object})}
+              displayModal={() => toggleModal(doc)}
             />
           ))}
           {isLoading && (
