@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.document-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: ($basepx * 4);
+  padding: 0 0 ($basepx * 10);
+
+  &__button-container {
+    display: flex;
+    justify-content: center;
+    grid-column: 2 / 12;
+  }
+  &__loading {
+    grid-column: 2 / 12;
+    display: flex;
+    justify-content: center;
+    padding: ($basepx * 10) 0;
+  }
+  &__no-results {
+    grid-column: 2 / 12;
+    text-align: left;
+  }
+}

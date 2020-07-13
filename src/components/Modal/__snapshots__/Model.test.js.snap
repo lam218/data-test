@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test that the Modal renders 1`] = `
+<div
+  className="modal"
+>
+  <button
+    onClick={[MockFunction]}
+    type="button"
+  >
+    Close
+  </button>
+  <h3
+    className="modal__title"
+  />
+  <div
+    className="modal__content"
+  >
+    <p />
+  </div>
+  <a
+    className="modal__link"
+  >
+    Read on original site
+  </a>
+</div>
+`;

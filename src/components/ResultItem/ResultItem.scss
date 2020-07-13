@@ -1,0 +1,27 @@
+@import '../../styles/placeholders.scss';
+
+.document {
+  @extend %box-shadow;
+  grid-column: 2 / 12;
+  padding: ($basepx * 5);
+  border-radius: $basepx;
+
+  &__content {
+    @extend %inner-container;
+  }
+  &__button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__meta{
+    display: flex;
+  }
+  &__meta-date{
+    padding: 0 ($basepx * 2) 0 0;
+  }
+  &__meta-date, &__meta-location{
+      i{
+          padding: 0 $basepx 0 0;
+      }
+  }
+}

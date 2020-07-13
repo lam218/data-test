@@ -1,0 +1,55 @@
+button {
+  padding: $basepx ($basepx * 2);
+  border: none;
+  border-radius: $basepx;
+  cursor: pointer;
+  background: $primary;
+  color: white;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    background: darken($primary, 10%);
+  }
+}
+
+p {
+  line-height: 2;
+  text-align: left;
+}
+input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: $basepx;
+  padding: ($basepx * 3) ($basepx * 4);
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  &__label {
+    padding: 0 ($basepx * 2);
+  }
+  &__container {
+    border-radius: $basepx;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline;
+  }
+  i {
+    padding: 0 ($basepx * 2) 0 0;
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  font-size: 1rem;
+  line-height: normal;
+  cursor: pointer;
+  border-radius: 4px;
+
+  padding: 12px 8px 14px 16px;
+  &::-ms-expand {
+    display: none;
+  }
+}

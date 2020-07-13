@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+%box-shadow {
+  box-shadow: 0px 5px 15px 0px rgba(9, 51, 63, 0.2);
+}
+
+%inner-container {
+  border: 1px solid $primary;
+  border-radius: $basepx;
+  padding: ($basepx * 3) ($basepx * 5);
+}

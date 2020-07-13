@@ -1,0 +1,28 @@
+@import "../../styles/placeholders.scss";
+
+.modal {
+  @extend %box-shadow;
+  position: fixed;
+  top: ($basepx * 5);
+  z-index: 2;
+  border-radius: $basepx;
+
+  &__outer {
+    margin: auto;
+    width: calc(100% - 80px);
+    background: $white;
+    padding: ($basepx * 5);
+  }
+  &__inner {
+    @extend %inner-container;
+  }
+  &__content {
+    overflow-y: scroll;
+    max-height: 70vh;
+  }
+  &__button-container{
+      display: flex;
+      justify-content: flex-end;
+      padding: ($basepx * 5) 0;
+  }
+}
