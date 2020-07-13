@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start json-server --watch ./mock/db.js",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage",
+    "test": "react-scripts test --watch",
     "eject": "react-scripts eject",
     "mock": "json-server --watch ./mock/db.js --port 3030",
     "flow": "flow"
@@ -38,6 +38,8 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.0",
-    "@testing-library/react": "^10.4.5"
+    "@testing-library/react": "^10.4.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2"
   }
 }

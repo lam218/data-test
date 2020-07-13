@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test that the Result item renders 1`] = `
+<div
+  className="document"
+  style={
+    Object {
+      "gridRow": 1,
+    }
+  }
+>
+  <div
+    className="document__content"
+  >
+    <h2
+      className="document__title"
+    >
+      hello
+    </h2>
+    <div
+      className="document__meta"
+    >
+      <div
+        className="document__meta-date"
+      >
+        <i
+          className="far fa-calendar-alt"
+        />
+        2020
+      </div>
+      <div
+        className="document__meta-location"
+      >
+        <i
+          className="fas fa-map-marker-alt"
+        />
+        UK
+      </div>
+    </div>
+    <p>
+      Some summary
+    </p>
+    <div
+      className="document__button-container"
+    >
+      <button
+        onClick={[MockFunction]}
+        type="button"
+      >
+        Click to expand
+      </button>
+    </div>
+  </div>
+</div>
+`;

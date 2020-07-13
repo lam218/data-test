@@ -4,24 +4,37 @@ exports[`Test that the Modal renders 1`] = `
 <div
   className="modal"
 >
-  <button
-    onClick={[MockFunction]}
-    type="button"
-  >
-    Close
-  </button>
-  <h3
-    className="modal__title"
-  />
   <div
-    className="modal__content"
+    className="modal__outer"
   >
-    <p />
+    <div
+      className="modal__inner"
+    >
+      <div
+        className="modal__button-container"
+      >
+        <button
+          onClick={[MockFunction]}
+          type="button"
+        >
+          Close
+        </button>
+      </div>
+      <div
+        className="modal__content"
+      >
+        <p />
+      </div>
+      <div
+        className="modal__button-container"
+      >
+        <a
+          className="modal__link"
+        >
+          Read on original site
+        </a>
+      </div>
+    </div>
   </div>
-  <a
-    className="modal__link"
-  >
-    Read on original site
-  </a>
 </div>
 `;

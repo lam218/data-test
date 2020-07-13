@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test that the Result item renders 1`] = `
+<div
+  className="result-list"
+>
+  <div
+    className="search-bar"
+  >
+    <input
+      className="search-bar__input"
+      onChange={[Function]}
+      placeholder="Search term here"
+      type="text"
+    />
+    <div
+      className="search-bar__dropdown dropdown"
+    >
+      <label
+        className="dropdown__label"
+        htmlFor="sort"
+      >
+        Sort
+      </label>
+      <div
+        className="dropdown__container"
+      >
+        <select
+          defaultValue="m_szDocID-asc"
+          id="sort"
+          name="sort"
+          onChange={[Function]}
+        >
+          <option
+            disabled={true}
+            value="m_szDocID-asc"
+          />
+          <option
+            value="m_szYear-asc"
+          >
+            Year - Low to High
+          </option>
+          <option
+            value="m_szYear-desc"
+          >
+            Year - High to Low
+          </option>
+          <option
+            value="m_szDocTitle-asc"
+          >
+            Title - A-Z
+          </option>
+          <option
+            value="m_szDocTitle-desc"
+          >
+            Title - Z-A
+          </option>
+        </select>
+        <i
+          className="fas fa-chevron-down"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="document-container"
+  >
+    <div
+      className="document-container__loading"
+    >
+      <i
+        className="loading-spinner fas fa-spinner fa-spin"
+      />
+    </div>
+  </div>
+</div>
+`;
