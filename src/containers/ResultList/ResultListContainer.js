@@ -21,6 +21,8 @@ type State = {
   sort: string,
 };
 
+const API_URL = 'https://data-test-lm.herokuapp.com';
+
 class ResultListContainer extends React.PureComponent<Props, State> {
   constructor() {
     super();
@@ -48,7 +50,7 @@ class ResultListContainer extends React.PureComponent<Props, State> {
 
     axios
       .get(
-        `http://localhost:3030/data?q=${inputValue}&_page=${page}&_sort=${sortType}&_order=${sortDirection}`
+        `${API_URL}/data?q=${inputValue}&_page=${page}&_sort=${sortType}&_order=${sortDirection}`
       )
       .then((item) => {
         this.setState({
@@ -68,7 +70,7 @@ class ResultListContainer extends React.PureComponent<Props, State> {
     });
     axios
       .get(
-        `http://localhost:3030/data?_page=${
+        `${API_URL}/data?_page=${
           page + 1
         }&q=${inputValue}&_sort=${sortType}&_order=${sortDirection}`
       )

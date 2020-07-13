@@ -19,7 +19,6 @@ class App extends React.PureComponent<{}, State> {
   }
 
   toggleModal(doc) {
-    console.log(doc);
     document.getElementsByTagName("body")[0].style.overflow = doc
       ? "hidden"
       : "auto";
