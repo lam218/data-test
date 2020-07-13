@@ -14,11 +14,10 @@
     "react-test-renderer": "^16.13.1"
   },
   "scripts": {
-    "start": "react-scripts start json-server --watch ./mock/db.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watch",
     "eject": "react-scripts eject",
-    "mock": "json-server --watch ./mock/db.js --port 3030",
     "flow": "flow"
   },
   "eslintConfig": {
