@@ -12,7 +12,7 @@
 
 3) Caching
 
-4) Animations
+4) Responsiveness and Animations
 
 And realistically 1000 other things
 
