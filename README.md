@@ -15,3 +15,7 @@
 4) Animations
 
 And realistically 1000 other things
+
+# Set up of project
+
+The FE is hosted on netlify and the json-server is hosted on heroku
